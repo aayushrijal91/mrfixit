@@ -15,7 +15,7 @@
 					<div class="col-auto text-center">All Rights Reserved</div>
 				</div>
 			</div>
-			<div class="col-auto pt-3 pt-md-0">
+			<div class="col-auto pt-3 pt-lg-0">
 				<div class="row align-items-center gx-5">
 					<div class="col-auto">
 						<div class="row">

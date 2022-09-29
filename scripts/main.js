@@ -32,10 +32,23 @@ $(() => {
         arrows: false,
         responsive: [
             {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 4,
+                    autoplay: true,
+                }
+            },
+            {
+                breakpoint: 900,
+                settings: {
+                    slidesToShow: 3,
+                    autoplay: true,
+                }
+            },
+            {
                 breakpoint: 540,
                 settings: {
                     slidesToShow: 2,
-                    autoplay: true,
                 }
             }
         ]

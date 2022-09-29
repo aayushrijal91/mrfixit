@@ -13,15 +13,15 @@ include __DIR__ . '/header.php';
                     </a>
                 </div>
 
-                <div class="col-12 col-md-auto pt-4 pt-md-0">
+                <div class="col-12 col-md-auto pt-4 pt-lg-0">
                     <div class="row gx-2">
                         <div class="col-6 col-md-auto">
-                            <a href="tel:<?= $phone_number ?>" class="btn btn-white d-block text-secondary fw-700 py-lg-3 px-md-5 rounded-2 fs-13 font-helvetica">
+                            <a href="tel:<?= $phone_number ?>" class="btn btn-white d-block text-secondary fw-700 py-md-3 px-md-5 rounded-2 fs-13 font-helvetica">
                                 Call <?= $phone_number ?>
                             </a>
                         </div>
                         <div class="col-6 col-md-auto">
-                            <a href="#form" class="btn btn-primary d-block text-white fw-700 py-lg-3 px-md-5 rounded-2 fs-13 font-helvetica">
+                            <a href="#form" class="btn btn-primary d-block text-white fw-700 py-md-3 px-md-5 rounded-2 fs-13 font-helvetica">
                                 Get Free Quote
                             </a>
                         </div>
@@ -58,12 +58,12 @@ include __DIR__ . '/header.php';
 
 <section class="awards bg-light">
     <div class="container">
-        <div class="row justify-content-between align-items-center gy-5 gy-md-0">
-            <div class="col-12 col-md-auto pt-5 pt-md-0">
+        <div class="row justify-content-between align-items-center gy-5 gy-xl-0">
+            <div class="col-12 col-xl-auto pt-5 pt-xl-0">
                 <div class="letter-spacing-n03 text-tertiary fs-8 text-center"><span class="fw-700">Leaking tank?</span> Don't Replace Call Now &<span class="fw-700"> Save $$$</span></div>
             </div>
-            <div class="col-12 col-lg-4">
-                <div class="row justify-content-between align-items-center">
+            <div class="col-12 col-xl-4">
+                <div class="row justify-content-between justify-content-lg-around justify-content-xl-between align-items-center">
                     <div class="col col-md-auto"><?= renderImg("watermark.png", "logo") ?></div>
                     <div class="col col-md-auto"><?= renderImg("energy-efficient.png", "logo") ?></div>
                     <div class="col col-md-auto"><?= renderImg("local-bussiness-award.png", "logo") ?></div>
@@ -76,7 +76,7 @@ include __DIR__ . '/header.php';
 
 <section class="cta">
     <div class="container">
-        <div class="row gy-4 gy-md-0">
+        <div class="row gy-4 gy-lg-0">
             <div class="col-lg-6 h-inherit">
                 <div class="cta-card">
                     <div class="letter-spacing-n03 fs-2 line-height-1"><span class="fw-700">Don't Replace It</span>, Fix It</div>
@@ -131,7 +131,7 @@ include __DIR__ . '/header.php';
 <section class="services">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-9 col-xl-8 text-center">
+            <div class="col-xl-8 text-center">
                 <div class="fs-10 subHeading">Our Services</div>
                 <div class="text-tertiary fw-900 fs-3 text-capitalize pb-3 pb-md-0">
                     <span class="text-black">We have</span> 25 years experience.
@@ -325,20 +325,20 @@ include __DIR__ . '/header.php';
 
 <section class="faq">
     <div class="container">
-        <div class="row gy-4 gy-md-0 justify-content-between align-items-center">
-            <div class="col-lg-8">
+        <div class="row gy-4 gy-xl-0 justify-content-between align-items-center">
+            <div class="col-xl col-xxl-8">
                 <div class="fs-3 fw-700">Our Frequently Asked Questions</div>
                 <div class="fs-12 text-primary-dark">We always provide an upfront hassle free on-site honest obligation free quote prior to proceeding with any on-site work on the day to ensure your happy with the quoted end job price with no extra added cost or surprises along the way on completion of your plastic tank repair.</div>
             </div>
             <div class="col-auto">
                 <div class="row gx-2 gx-md-3">
                     <div class="col-auto">
-                        <a href="#form" class="btn border-tertiary text-tertiary fw-700 py-lg-3 px-3 px-md-4 px-xl-6 rounded-2 fs-12 font-helvetica">
+                        <a href="#form" class="btn border-tertiary text-tertiary fw-700 py-md-3 px-3 px-md-4 px-xl-6 rounded-2 fs-12 font-helvetica">
                             Call Us
                         </a>
                     </div>
                     <div class="col-auto">
-                        <a href="#form" class="btn btn-tertiary text-white fw-700 py-lg-3 px-md-4 px-xl-6 rounded-2 fs-12 font-helvetica">
+                        <a href="#form" class="btn btn-tertiary text-white fw-700 py-md-3 px-md-4 px-xl-6 rounded-2 fs-12 font-helvetica">
                             View All Services
                         </a>
                     </div>
@@ -347,7 +347,7 @@ include __DIR__ . '/header.php';
         </div>
 
         <div class="row g-4 pt-5">
-            <div class="col-lg-4 h-inherit">
+            <div class="col-lg-6 col-xl-4 h-inherit">
                 <div class="faq-card row g-0">
                     <div class="col-auto">
                         <div class="number">1</div>
@@ -360,7 +360,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 h-inherit">
+            <div class="col-lg-6 col-xl-4 h-inherit">
                 <div class="faq-card row g-0">
                     <div class="col-auto">
                         <div class="number">2</div>
@@ -373,7 +373,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 h-inherit">
+            <div class="col-lg-6 col-xl-4 h-inherit">
                 <div class="faq-card row g-0">
                     <div class="col-auto">
                         <div class="number">3</div>
@@ -386,7 +386,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 h-inherit">
+            <div class="col-lg-6 col-xl-4 h-inherit">
                 <div class="faq-card row g-0">
                     <div class="col-auto">
                         <div class="number">4</div>
@@ -399,7 +399,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 h-inherit">
+            <div class="col-lg-6 col-xl-4 h-inherit">
                 <div class="faq-card row g-0">
                     <div class="col-auto">
                         <div class="number">5</div>
@@ -412,7 +412,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 h-inherit">
+            <div class="col-lg-6 col-xl-4 h-inherit">
                 <div class="faq-card row g-0">
                     <div class="col-auto">
                         <div class="number">6</div>
@@ -425,7 +425,7 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 h-inherit">
+            <div class="col-lg-6 col-xl-4 h-inherit">
                 <div class="faq-card row g-0">
                     <div class="col-auto">
                         <div class="number">7</div>
@@ -450,7 +450,7 @@ include __DIR__ . '/header.php';
         <div class="text-center fs-4 fw-900 ">
             Our Service Areas Throughout Australia
         </div>
-        <div class="row justify-content-md-between fs-10 pt-4">
+        <div class="row justify-content-md-around justify-content-xl-between gy-md-4 fs-10 pt-4">
             <div class="col-md-auto">
                 <?= renderImg('tick.png', "icons", "pe-2") ?>South East Queensland
             </div>
@@ -487,28 +487,28 @@ include __DIR__ . '/header.php';
 
 <section class="form" id="form">
     <div class="container">
-        <div class="row gy-4 gy-md-0 justify-content-between align-items-center">
-            <div class="col-lg-8">
+        <div class="row gy-4 gy-xl-0 justify-content-between align-items-center">
+            <div class="col-xl col-xxl-8">
                 <div class="fs-4 fw-700 letter-spacing-n02">Contact the Water Tank Specialists</div>
                 <div class="fs-10 text-primary-dark">Simply complete our form below & we’ll get back to you as soon as possible</div>
             </div>
             <div class="col-auto">
                 <div class="row gx-2 gx-md-3">
                     <div class="col-auto">
-                        <a href="#form" class="btn border-tertiary text-tertiary fw-700 py-lg-3 px-4 px-xl-6 rounded-2 fs-12 font-helvetica">
+                        <a href="#form" class="btn border-tertiary text-tertiary fw-700 py-md-3 px-4 px-xl-6 rounded-2 fs-12 font-helvetica">
                             Call Us
                         </a>
                     </div>
                     <div class="col-auto">
-                        <a href="#form" class="btn btn-tertiary text-white fw-700 py-lg-3 px-md-4 px-xl-6 rounded-2 fs-12 font-helvetica">
+                        <a href="#form" class="btn btn-tertiary text-white fw-700 py-md-3 px-md-4 px-xl-6 rounded-2 fs-12 font-helvetica">
                             View All Services
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row gy-5 gy-md-0 gx-xl-5 pt-6">
-            <div class="col-lg-4 h-inherit">
+        <div class="row gy-5 gy-lg-0 gx-xl-5 pt-6">
+            <div class="col-lg-5 col-xl-4 h-inherit">
                 <div class="testimonials">
                     <?= renderImg("quote.png", "icons", "quote") ?>
                     <div class="testimonial-slider" id="testimonial-slider">
@@ -533,11 +533,11 @@ include __DIR__ . '/header.php';
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8 h-inherit">
+            <div class="col-lg-7 col-xl-8 h-inherit">
                 <div class="form-main">
                     <form action="./src/form" method="POST">
                         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
-                        <div class="row gy-5">
+                        <div class="row gy-4 gy-md-5">
                             <div class="col-12 col-md-6">
                                 <label>Your Full Name</label>
                                 <input class="form-control border-1 rounded-0 bg-white" type="text" placeholder="Eg: John Citizen" name="name" required>

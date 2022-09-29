@@ -45,6 +45,15 @@ header {
             text-transform: capitalize;
             left: 39%;
             transition: 0.4s all ease-in-out;
+
+            @include media-breakpoint-down(xl) {
+                left: 37%;
+                font-size: 1.25rem !important;
+            }
+
+            @include media-breakpoint-down(lg) {
+                font-size: 1rem !important;
+            }
         }
     }
 
@@ -102,6 +111,10 @@ section.cta {
 
         @include media-breakpoint-up(md) {
             padding: 46px 62px 0;
+        }
+
+        @include media-breakpoint-only(lg) {
+            padding: 46px 24px 0;
         }
 
         .description {
@@ -253,6 +266,10 @@ section.form {
                 font-size: 0.875rem;
                 line-height: 2;
                 padding: 40px 47px;
+
+                @include media-breakpoint-only(lg) {
+                    padding: 40px 24px;
+                }
 
                 @include media-breakpoint-down(sm) {
                     padding: 40px 24px;
