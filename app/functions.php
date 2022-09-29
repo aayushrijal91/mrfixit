@@ -3,9 +3,9 @@ include __DIR__ . '/env.php';
 
 $site = "Mr Fix It Water Tank Services";
 $phone_number = "0432 406 340";
-$admin_email = 'arijal@aiims.com.au'; // info@mrfixitwatertankservices.com.au
+$admin_email = 'info@mrfixitwatertankservices.com.au';
 $bcc_email = "";
-$no_reply_email = 'info@website.com.au';
+$no_reply_email = 'info@mrfixitwatertankservices.com.au';
 $recaptcha_client_secret = $client_secret;
 $recaptcha_server_secret = $server_secret;
 
