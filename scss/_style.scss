@@ -282,6 +282,31 @@ section.form {
                 hr {
                     width: 100%;
                 }
+
+                .user_initial {
+                    height: 82px;
+                    width: 82px;
+                    background-color: $white;
+                    color: $tertiary;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 1;
+                    position: relative;
+                    font-size: 57px;
+                    font-weight: 700;
+                    border-radius: 82px;
+
+                    &::after {
+                        position: absolute;
+                        content: "";
+                        background: imgUrl('google-mini.png', "icons");
+                        height: 31px;
+                        width: 31px;
+                        bottom: 0;
+                        right: 0;
+                    }
+                }
             }
         }
     }

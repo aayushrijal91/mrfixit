@@ -1,4 +1,4 @@
-# Landing page [Mr Fixit Water Tank Services](https://www.mrfixitwatertankservices.com.au)
+# Landing page [Mr Fixit Water Tank Services](https://www.mrfixitwatertankservices.com.au/)
 
 This is a landing page boilerplate that uses PHP scripting language
 

@@ -173,7 +173,8 @@ include __DIR__ . '/header.php';
                             <div class="col">
                                 <div class="title fs-8">Rainwater Tank Service</div>
                                 <div class="description">
-                                    All rainwater tanks are repaired by using our specialist state of the art plastic welding equipment and in most cases all while the water tank is still in place without any need to remove your poly tank making the whole experience for the customer a lot more pleasurable.
+                                    Keeping your rainwater tank serviced regularly is important and it will keep your system warranty. Clean the rainwater tank every 2-3 years to stop the build up sediment and bacteria such as E-coli. Removing sediment from your tank will also help protect your pump from
+                                    <span class="d-md-none">...</span><span class="d-none d-md-inline">drawing up any foreign objects and damaging your pump.</span>
                                 </div>
                             </div>
                             <div class="col-12 col-md-auto">
@@ -195,7 +196,8 @@ include __DIR__ . '/header.php';
                             <div class="col">
                                 <div class="title fs-8">Rainwater Collapsed Roof Repair</div>
                                 <div class="description">
-                                    All rainwater tanks are repaired by using our specialist state of the art plastic welding equipment and in most cases all while the water tank is still in place without any need to remove your poly tank making the whole experience for the customer a lot more pleasurable.
+                                    Repairing and plastic welding all cracked, split or even collapsed plastic rain water tank roofs without the need to empty your tank. Using our unique tank roof raising system allows us to raise your plastic tank roof and replace any old support posts holding your tank
+                                    <span class="d-md-none">...</span><span class="d-none d-md-inline">roof up with new ones all from the outside without the need to ever enter inside your poly rainwater tank. We repair all brands and sizes of plastic tanks using our professional repair system to repair and plastic weld your poly water tank roof. </span>
                                 </div>
                             </div>
                             <div class="col-12 col-md-auto">
@@ -217,7 +219,8 @@ include __DIR__ . '/header.php';
                             <div class="col">
                                 <div class="title fs-8">Plastic Tank Welding</div>
                                 <div class="description">
-                                    All rainwater tanks are repaired by using our specialist state of the art plastic welding equipment and in most cases all while the water tank is still in place without any need to remove your poly tank making the whole experience for the customer a lot more pleasurable.
+                                    Poly Water Tank Repair to all split, cracked, damaged leaking plastic rain water tanks including residential slimline tanks, large rural farming tanks or and commercial plastic tanks even doing alterations and repairing all leaking outlets/ inlets and welding new
+                                    <span class="d-md-none">...</span><span class="d-none d-md-inline">inlets / outlets onto your plastic water tanks if required and or repairing any wear and tear like grooves, gouges or grazed scuffs marked areas by doing the required poly welding repairs. </span>
                                 </div>
                             </div>
                             <div class="col-12 col-md-auto">
@@ -239,7 +242,8 @@ include __DIR__ . '/header.php';
                             <div class="col">
                                 <div class="title fs-8">Agriculture Tank Welding</div>
                                 <div class="description">
-                                    All rainwater tanks are repaired by using our specialist state of the art plastic welding equipment and in most cases all while the water tank is still in place without any need to remove your poly tank making the whole experience for the customer a lot more pleasurable.
+                                    We repair all Agricultural farming tanks, wherever your situated with our mobile all terrain vehicle workshop setup with the requirements needed to plastic weld your plastic tank. Our vehicle is equipped with all the plastic welding tools with various plastic extrusion
+                                    <span class="d-md-none">...</span><span class="d-none d-md-inline"> welding equipment and most importantly with power onboard allowing us to plastic weld on-site at your place to repair your poly tanks.</span>
                                 </div>
                             </div>
                             <div class="col-12 col-md-auto">
@@ -261,7 +265,8 @@ include __DIR__ . '/header.php';
                             <div class="col">
                                 <div class="title fs-8">Fuel Tank repairs</div>
                                 <div class="description">
-                                    All rainwater tanks are repaired by using our specialist state of the art plastic welding equipment and in most cases all while the water tank is still in place without any need to remove your poly tank making the whole experience for the customer a lot more pleasurable.
+                                    We are the leaders in plastic fuel or diesel tank repairers in Australia for many years, involved in repairing all types of leaking or damaged gasoline petroleum and diesel plastic tanks. Plastic fuel or diesel tanks are made from various types of Polyolefin Plastics.
+                                    <span class="d-md-none">...</span><span class="d-none d-md-inline">We plastic weld splits, cracks and repair patches, any tears or holes in the plastic fuel tank. Even plastic welding new inlets or outlets on all types of leaking Plastic diesel tanks made of different coloured plastic materials.</span>
                                 </div>
                             </div>
                             <div class="col-12 col-md-auto">
@@ -512,24 +517,56 @@ include __DIR__ . '/header.php';
                 <div class="testimonials">
                     <?= renderImg("quote.png", "icons", "quote") ?>
                     <div class="testimonial-slider" id="testimonial-slider">
-                        <div class="testimonial-slider-content">
-                            <?= renderImg("userimg.png", "lib", "pb-4") ?>
-                            <div class="fs-11 fw-700">Lorrain C.</div>
-                            <?= renderImg("stars.png", "icons", "py-2") ?>
-                            <div class="">3 Days Ago</div>
-                            <hr>
-                            <p>Noel came out to look at what I thought was a leak in my water tank. He quickly discovered that the leak was actually from a crack in a fitting, on the part of the fitting that screws into the tank. At my request he removed the fitting and capped off the tank at that outlet, so my tank is now leak-free.</p>
-                            <p>He was only at my place for 10 minutes so didn't even charge me a call-out fee! Very happy to recommend Noel.</p>
-                        </div>
-                        <div class="testimonial-slider-content">
-                            <?= renderImg("userimg.png", "lib", "pb-4") ?>
-                            <div class="fs-11 fw-700">Lorrain C.</div>
-                            <?= renderImg("stars.png", "icons", "py-2") ?>
-                            <div class="">3 Days Ago</div>
-                            <hr>
-                            <p>Noel came out to look at what I thought was a leak in my water tank. He quickly discovered that the leak was actually from a crack in a fitting, on the part of the fitting that screws into the tank. At my request he removed the fitting and capped off the tank at that outlet, so my tank is now leak-free.</p>
-                            <p>He was only at my place for 10 minutes so didn't even charge me a call-out fee! Very happy to recommend Noel.</p>
-                        </div>
+                        <?php $testimonials = [
+                            "Lorrain C." => [
+                                "time" => "3 Days ago",
+                                "comment" => "<p>Noel came out to look at what I thought was a leak in my water tank. He quickly discovered that the leak was actually from a crack in a fitting, on the part of the fitting that screws into the tank. At my request he removed the fitting and capped off the tank at that outlet, so my tank is now leak-free.</p>
+                                <p>He was only at my place for 10 minutes so didn't even charge me a call-out fee! Very happy to recommend Noel.</p>",
+                            ],
+                            "Suzanne Meyers" => [
+                                "time" => "a month ago",
+                                "comment" => "<p>He wants them to say 3 days ago, 5 days ago, a week ago, 2 weeks ago and a month ago.</p>
+                                <p>Noel did a great job. Prompt professional service. Our damaged poly tank was welded up in a jiffy and ready to go straight away.</p>"
+                            ],
+                            "Shannon Beatty" => [
+                                "time" => "a month ago",
+                                "comment" => "<p>Noel came out to look at what I thought was a leak in my water tank. He quickly discovered that the leak was actually from a crack in a fitting, on the part of the fitting that screws into the tank. At my request he removed the fitting and capped off the tank at that outlet, so my tank is now leak-free. He was only at my place for 10 minutes so didn't even charge me a call-out fee! Very happy to recommend Noel.</p>"
+                            ],
+                            "Catherine Gillespie" => [
+                                "time" => "a month ago",
+                                "comment" => "<p>Noel carried out a welding repair to our poly rainwater tank. He kept us informed as to his availability and arrived at the time provided to us. We found him to be extremely professional and offered us sound advice. We would not hesitate in recommending him for this service.</p>"
+                            ],
+                            "Shane Langham" => [
+                                "time" => "a month ago",
+                                "comment" => "<p>When you want a job done right the first time call a professional like Noel. Noel has the experience that you are after to tell you how it is and the best way forward. My poly water tank has never looked so good (other then when it was new) Thanks for a job well done Noel. I will be calling you again  if i have trouble with my other tank.</p>"
+                            ],
+                            "Lloyd Anderson" => [
+                                "time" => "a month ago",
+                                "comment" => "<p>The 'Self Supporting' roof of our 5,000 gallon poly tank collapsed and I feared that I would have replace it. Access to the tank's location was difficult as far as replacement is concerned and this could have cost a lot. Noel took on the job and while the repair was not easy and took a fair while, he got the job done and at a reasonable cost. Noel is very good at his craft and I highly recommend him.</p>"
+                            ],
+                            "Helena Lewis" => [
+                                "time" => "a month ago",
+                                "comment" => "Noel was knowledgeable  and friendly. Got the job done without any fuss and at a reasonable price.  Would happily recommend him to others."
+                            ],
+                            "Des Craven" => [
+                                "time" => "a month ago",
+                                "comment" => "Rang Mr Fix It Water Tank Service as a repair to my water tank carried out by Rapid Repairs was unsuccessful (see my review on Rapid Repairs). Noel from was punctual and did a thoroughly professional job on fixing the leak. If you’re looking for an expert I highly recommend him."
+                            ],
+                            "Sarah Wilson" => [
+                                "time" => "a month ago",
+                                "comment" => "We recently asked Noel to look at a damaged water tank to advise on repairs. Unfortunately, the tank was too far gone, but Noel was extremely helpful advising on recommended replacement tank options.  Thank you!"
+                            ],
+                        ]; ?>
+                        <?php foreach ($testimonials as $user => $testimonial) : ?>
+                            <div class="testimonial-slider-content">
+                                <div class="user_initial"><?= substr($user, 0,1) ?></div>
+                                <div class="fs-11 fw-700 pt-2" ><?= $user ?></div>
+                                <?= renderImg("stars.png", "icons", "py-2") ?>
+                                <div class="text-capitalize"><?= $testimonial['time'] ?></div>
+                                <hr>
+                                <?= $testimonial['comment'] ?>
+                            </div>
+                        <?php endforeach; ?>
                     </div>
                 </div>
             </div>
