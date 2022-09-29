@@ -84,7 +84,7 @@ include __DIR__ . '/header.php';
                         We always provide an upfront hassle free on-site honest obligation free quote prior to proceeding with any on-site work on the day to ensure your happy with the quoted end job price with no extra added cost or surprises along the way on completion of your plastic tank repair.
                     </div>
                     <a href="tel:<?= $phone_number ?>" class="btn btn-quartinary px-5 py-3 line-height-1 rounded-pill fs-11">Call Today</a>
-                    <div class="pt-5"><?= renderImg("cta-1.png", "lib") ?></div>
+                    <div class="pt-5"><?= renderImg("cta-1.gif", "lib") ?></div>
                     <div class="offer">
                         <div class="fs-10 line-height-1 pb-2">Rain water tank repairs<br> &amp; servicing</div>
                         <div class="pill rounded-pill bg-quartinary px-5 py-2">
