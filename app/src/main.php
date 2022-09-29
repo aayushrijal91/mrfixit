@@ -552,19 +552,14 @@ include __DIR__ . '/header.php';
                             </div>
                             <div class="col-12 col-md-6">
                                 <label>Service Required</label>
-                                <select name="service" class="form-control rounded-0 bg-white" required>
+                                <select name="service" class="form-control form-select rounded-0 bg-white" required>
                                     <option value="" disabled selected>Select from below</option>
-                                    <option>Curtains</option>
-                                    <option>Outdoor Roller Blinds</option>
-                                    <option>Vertical Blinds</option>
-                                    <option>Roller Blinds</option>
-                                    <option>Panel Glides</option>
-                                    <option>Roman Blinds</option>
-                                    <option>Venetian Blinds</option>
-                                    <option>Veri Shades</option>
-                                    <option>Plantation Shutters</option>
-                                    <option>Zebra Blinds</option>
-                                    <option>Motorised Blinds</option>
+                                    <option>Rainwater Tank Repairs</option>
+                                    <option>Rainwater Tank Service</option>
+                                    <option>Rainwater Collapsed Roof Repair</option>
+                                    <option>Plastic Tank Welding</option>
+                                    <option>Agriculture Tank Welding</option>
+                                    <option>Fuel Tank Repairs</option>
                                 </select>
                             </div>
                             <div class="col-12">

@@ -20,6 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $name = $_POST['name'];
         $phone = $_POST['phone'];
         $email = $_POST['email'];
+        $service = $_POST['service'];
         $message = $_POST['message'];
 
         $message = '<!DOCTYPE html>
@@ -55,6 +56,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '<tr>' .
             '<td>Email Address</td>' .
             '<td><b>' . strip_tags($email) . '</b></td>' .
+            '</tr>' .
+            '<tr>' .
+            '<td>Service Required</td>' .
+            '<td><b>' . strip_tags($service) . '</b></td>' .
             '</tr>' .
             '<tr>' .
             '<td>Message</td>' .
