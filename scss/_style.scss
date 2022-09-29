@@ -15,9 +15,13 @@ header {
     }
 
     .banner {
-        padding-top: 100px;
         z-index: 100;
         position: relative;
+        padding-top: 64px;
+
+        @include media-breakpoint-up(md) {
+            padding-top: 100px;
+        }
 
         .headings {
             transition: 0.4s all ease-in-out;
@@ -87,7 +91,6 @@ section.cta {
     .cta-card {
         height: 100%;
         background: $tertiary;
-        padding: 46px 62px 0;
         color: $white;
         text-align: center;
         display: flex;
@@ -95,6 +98,11 @@ section.cta {
         justify-content: space-between;
         align-items: center;
         position: relative;
+        padding: 46px 16px 0;
+
+        @include media-breakpoint-up(md) {
+            padding: 46px 62px 0;
+        }
 
         .description {
             font-size: 1.1rem;
@@ -119,6 +127,10 @@ section.cta {
 .brands-top-bar {
     height: 61px;
     background: #055EE2;
+
+    @include media-breakpoint-down(sm) {
+        height: 24px;
+    }
 }
 
 section.brands {
@@ -235,12 +247,16 @@ section.form {
                 flex-direction: column;
                 align-items: center;
                 position: relative;
-                padding: 40px 47px;
                 color: $white;
                 text-align: center;
                 letter-spacing: -0.05em;
                 font-size: 0.875rem;
                 line-height: 2;
+                padding: 40px 47px;
+
+                @include media-breakpoint-down(sm) {
+                    padding: 40px 24px;
+                }
 
                 hr {
                     width: 100%;
@@ -294,8 +310,5 @@ footer {
     font-family: $font-helvetica;
     background-color: $black;
     color: $grey;
-
-    @include media-breakpoint-down(sm) {
-        font-size: 0.61rem;
-    }
+    font-weight: 600;
 }

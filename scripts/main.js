@@ -30,6 +30,15 @@ $(() => {
     $('#brands-slider').slick({
         slidesToShow: 7,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 2,
+                    autoplay: true,
+                }
+            }
+        ]
     });
 
     $('#testimonial-slider').slick({

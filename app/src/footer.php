@@ -15,16 +15,16 @@
 					<div class="col-auto text-center">All Rights Reserved</div>
 				</div>
 			</div>
-			<div class="col-auto d-none d-lg-block">
+			<div class="col-auto pt-3 pt-md-0">
 				<div class="row align-items-center gx-5">
 					<div class="col-auto">
-						<div class="row fw-600">
+						<div class="row">
 							<div class="col-auto text-center">Terms &amp; Conditions</div>
 							<div class="col-auto">|</div>
 							<div class="col-auto text-center">Privacy Policies</div>
 						</div>
 					</div>
-					<div class="col-auto">
+					<div class="col-auto d-none d-lg-block">
 						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
 							<?= renderImg("aiims.png", "logo") ?>
 						</a>
