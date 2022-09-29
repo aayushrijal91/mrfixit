@@ -539,7 +539,7 @@ include __DIR__ . '/header.php';
                         <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
                         <div class="row gy-4 gy-md-5">
                             <div class="col-12 col-md-6">
-                                <label>Your Full Name</label>
+                                <label>Your Full Names</label>
                                 <input class="form-control border-1 rounded-0 bg-white" type="text" placeholder="Eg: John Citizen" name="name" required>
                             </div>
                             <div class="col-12 col-md-6">
@@ -547,7 +547,7 @@ include __DIR__ . '/header.php';
                                 <input id="phone" class="form-control rounded-0 bg-white" type="tel" placeholder="Eg: 0400 000 000" name="phone" required>
                             </div>
                             <div class="col-12 col-md-6">
-                                <label>Your Email</label>
+                                <label>Your Emails</label>
                                 <input id="email" class="form-control rounded-0 bg-white" type="email" placeholder="Eg: example@email.com.au" name="email" required>
                             </div>
                             <div class="col-12 col-md-6">
