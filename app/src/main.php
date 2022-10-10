@@ -100,7 +100,7 @@ include __DIR__ . '/header.php';
                         Our technicians will always give you the best upfront honest advice prior to repairing your plastic tank letting you know any pro’s and con’s to allow our customers to make the best choice for them.
                     </div>
                     <a href="tel:<?= $phone_number ?>" class="btn btn-quartinary px-5 py-3 line-height-1 rounded-pill fs-11">Call Today</a>
-                    <div class="pt-5"><?= renderImg("cta-2.png", "lib") ?></div>
+                    <div class="pt-5"><?= renderImg("cta-2.gif", "lib") ?></div>
                     <div class="offer">
                         <div class="pill rounded-pill bg-quartinary px-5 py-2">
                             <div class="fs-7 fw-700 line-height-1">Get $100 Off</div>
