@@ -10,19 +10,19 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
     });
 });
 
-$('header').on('mouseenter', function() {
+$('header').on('mouseenter', function () {
     $('header').addClass('active');
 });
 
-$('header').on('mouseleave', function() {
+$('header').on('mouseleave', function () {
     $('header').removeClass('active');
 });
 
-$('.service-card').on('mouseover', function() {
+$('.service-card').on('mouseover', function () {
     $(this).find('.description').slideDown(500);
 });
 
-$('.service-card').on('mouseleave', function() {
+$('.service-card').on('mouseleave', function () {
     $(this).find('.description').slideUp(500);
 });
 
@@ -56,7 +56,8 @@ $(() => {
 
     $('#testimonial-slider').slick({
         slidesToShow: 1,
-        arrows: false,
+        arrows: true,
+        slidesToScroll: 1,
     })
 })
 

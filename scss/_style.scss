@@ -29,6 +29,40 @@ header {
             .heroHeading {
                 line-height: 1;
             }
+
+            .subHeading {
+                font-size: 58px;
+                color: $white;
+                text-shadow:
+                    0 0 7px $white,
+                    0 0 10px $white,
+                    0 0 21px $white,
+                    0 0 42px #0fa,
+                    0 0 82px #0fa;
+
+                &>span {
+                    animation: flicker 3s infinite;
+
+                    &:nth-child(2) {
+                        animation: flicker 10s infinite;
+                    }
+                }
+
+                @keyframes flicker {
+                    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+                      text-shadow:
+                        0 0 4px $white,
+                        0 0 11px $white,
+                        0 0 19px $white,
+                        0 0 40px #0fa,
+                        0 0 80px #0fa;
+                    }
+                    
+                    20%, 24%, 55% {        
+                        text-shadow: none;
+                    }    
+                  }
+            }
         }
 
         .banner-tanks {
@@ -62,6 +96,10 @@ header {
         .banner {
             .headings {
                 transform: translateY(-40px)scale(1.1);
+
+                @include media-breakpoint-down(sm) {
+                    transform: translateY(-40px);
+                }
             }
 
             .banner-tanks {
@@ -122,9 +160,23 @@ section.cta {
             padding: 35px 0 44px;
         }
 
+        .satisfaction-guaranteed {            
+            @include media-breakpoint-up(xl) {
+                position: absolute;
+                left: 0;
+                top: 20rem;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                top: 16rem;
+            }
+        }
+
         .offer {
-            position: absolute;
-            bottom: 32px;
+            @include media-breakpoint-up(md) {
+                position: absolute;
+                bottom: 32px;
+            }
 
             .pill {
                 min-height: 70px;
@@ -178,19 +230,23 @@ section.services {
         position: relative;
 
         .overlay {
+            background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
             position: absolute;
             bottom: 0;
             width: 100%;
             padding: 18px 16px;
+            color: $white;
 
             .title {
                 text-transform: capitalize;
                 font-weight: 700;
-                color: $white;
+            }
+
+            .sm-text {
+                font-size: 0.75rem;
             }
 
             .description {
-                color: $white;
                 font-size: 0.75rem;
                 display: none;
             }
@@ -259,6 +315,14 @@ section.form {
         }
 
         .testimonial-slider {
+            .slick-prev {
+                left: 10px;
+            }
+
+            .slick-next {
+                right: 10px;
+            }
+
             .testimonial-slider-content {
                 display: flex;
                 flex-direction: column;
@@ -347,6 +411,14 @@ section.form {
                 }
             }
         }
+    }
+}
+
+section.map {
+    iframe {
+        margin-bottom: -7px;
+        height: 600px;
+        width: 100%;
     }
 }
 

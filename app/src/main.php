@@ -36,7 +36,7 @@ include __DIR__ . '/header.php';
                 <div class="col-12 col-md-auto">
                     <div class="headings">
                         <div class="subHeading text-center fs-6 fw-500">
-                            If we can't fix it,<span class="fw-900"> then it's free!</span>
+                            <span>If we can't fix it, then it's free!</span>
                         </div>
                         <div class="heroHeading fs-1 letter-spacing-n03">
                             Don't Flick it,<span class="fw-900"> Fix It!</span>
@@ -53,7 +53,8 @@ include __DIR__ . '/header.php';
             </div>
         </div>
     </div>
-    <?= renderImg('splash-wave.png', "lib", "splash-wave") ?>
+    <?= renderImg('splash-wave.png', "lib", "splash-wave d-none d-md-block") ?>
+    <?= renderImg('splash-wave-sm.png', "lib", "splash-wave d-md-none") ?>
 </header>
 
 <section class="awards bg-light">
@@ -83,9 +84,16 @@ include __DIR__ . '/header.php';
                     <div class="description letter-spacing-n03">
                         We always provide an upfront hassle free on-site honest obligation free quote prior to proceeding with any on-site work on the day to ensure your happy with the quoted end job price with no extra added cost or surprises along the way on completion of your plastic tank repair.
                     </div>
+                    <?= renderImg('satisfaction-guaranteed.png', 'icons','satisfaction-guaranteed') ?>
                     <a href="tel:<?= $phone_number ?>" class="btn btn-quartinary px-5 py-3 line-height-1 rounded-pill fs-11">Call Today</a>
+                    <div class="offer pt-5 d-md-none">
+                        <div class="fs-10 line-height-1 pb-2">Rain water tank repairs<br> &amp; servicing</div>
+                        <div class="pill rounded-pill bg-quartinary px-5 py-2">
+                            <div class="fs-7 fw-700 line-height-1">Fr $299 <span class="fs-10 letter-spacing-n02"><s>Was $399</s></span></div>
+                        </div>
+                    </div>
                     <div class="pt-5"><?= renderImg("cta-1.gif", "lib") ?></div>
-                    <div class="offer">
+                    <div class="offer d-none d-md-block">
                         <div class="fs-10 line-height-1 pb-2">Rain water tank repairs<br> &amp; servicing</div>
                         <div class="pill rounded-pill bg-quartinary px-5 py-2">
                             <div class="fs-7 fw-700 line-height-1">Fr $299 <span class="fs-10 letter-spacing-n02"><s>Was $399</s></span></div>
@@ -100,8 +108,14 @@ include __DIR__ . '/header.php';
                         Our technicians will always give you the best upfront honest advice prior to repairing your plastic tank letting you know any pro’s and con’s to allow our customers to make the best choice for them.
                     </div>
                     <a href="tel:<?= $phone_number ?>" class="btn btn-quartinary px-5 py-3 line-height-1 rounded-pill fs-11">Call Today</a>
+                    <div class="offer pt-5 d-md-none">
+                        <div class="pill rounded-pill bg-quartinary px-5 py-2">
+                            <div class="fs-7 fw-700 line-height-1">Get $100 Off</div>
+                            <div class="fs-14">Your 1st Service</div>
+                        </div>
+                    </div>
                     <div class="pt-5"><?= renderImg("cta-2.gif", "lib") ?></div>
-                    <div class="offer">
+                    <div class="offer d-none d-md-block">
                         <div class="pill rounded-pill bg-quartinary px-5 py-2">
                             <div class="fs-7 fw-700 line-height-1">Get $100 Off</div>
                             <div class="fs-14">Your 1st Service</div>
@@ -172,6 +186,7 @@ include __DIR__ . '/header.php';
                         <div class="row gy-3 gy-md-0 gx-4 gx-lg-6 align-items-end justify-content-between">
                             <div class="col">
                                 <div class="title fs-8">Rainwater Tank Service</div>
+                                <div class="sm-text d-lg-none">Click here to read more</div>
                                 <div class="description">
                                     Keeping your rainwater tank serviced regularly is important and it will keep your system warranty. Clean the rainwater tank every 2-3 years to stop the build up sediment and bacteria such as E-coli. Removing sediment from your tank will also help protect your pump from
                                     <span class="d-md-none">...</span><span class="d-none d-md-inline">drawing up any foreign objects and damaging your pump.</span>
@@ -195,6 +210,7 @@ include __DIR__ . '/header.php';
                         <div class="row gy-3 gy-md-0 gx-4 gx-lg-6 align-items-end justify-content-between">
                             <div class="col">
                                 <div class="title fs-8">Rainwater Collapsed Roof Repair</div>
+                                <div class="sm-text d-lg-none">Click here to read more</div>
                                 <div class="description">
                                     Repairing and plastic welding all cracked, split or even collapsed plastic rain water tank roofs without the need to empty your tank. Using our unique tank roof raising system allows us to raise your plastic tank roof and replace any old support posts holding your tank
                                     <span class="d-md-none">...</span><span class="d-none d-md-inline">roof up with new ones all from the outside without the need to ever enter inside your poly rainwater tank. We repair all brands and sizes of plastic tanks using our professional repair system to repair and plastic weld your poly water tank roof. </span>
@@ -218,6 +234,7 @@ include __DIR__ . '/header.php';
                         <div class="row gy-3 gy-md-0 gx-4 gx-lg-6 align-items-end justify-content-between">
                             <div class="col">
                                 <div class="title fs-8">Plastic Tank Welding</div>
+                                <div class="sm-text d-lg-none">Click here to read more</div>
                                 <div class="description">
                                     Poly Water Tank Repair to all split, cracked, damaged leaking plastic rain water tanks including residential slimline tanks, large rural farming tanks or and commercial plastic tanks even doing alterations and repairing all leaking outlets/ inlets and welding new
                                     <span class="d-md-none">...</span><span class="d-none d-md-inline">inlets / outlets onto your plastic water tanks if required and or repairing any wear and tear like grooves, gouges or grazed scuffs marked areas by doing the required poly welding repairs. </span>
@@ -241,6 +258,7 @@ include __DIR__ . '/header.php';
                         <div class="row gy-3 gy-md-0 gx-4 gx-lg-6 align-items-end justify-content-between">
                             <div class="col">
                                 <div class="title fs-8">Agriculture Tank Welding</div>
+                                <div class="sm-text d-lg-none">Click here to read more</div>
                                 <div class="description">
                                     We repair all Agricultural farming tanks, wherever your situated with our mobile all terrain vehicle workshop setup with the requirements needed to plastic weld your plastic tank. Our vehicle is equipped with all the plastic welding tools with various plastic extrusion
                                     <span class="d-md-none">...</span><span class="d-none d-md-inline"> welding equipment and most importantly with power onboard allowing us to plastic weld on-site at your place to repair your poly tanks.</span>
@@ -264,6 +282,7 @@ include __DIR__ . '/header.php';
                         <div class="row gy-3 gy-md-0 gx-4 gx-lg-6 align-items-end justify-content-between">
                             <div class="col">
                                 <div class="title fs-8">Fuel Tank repairs</div>
+                                <div class="sm-text d-lg-none">Click here to read more</div>
                                 <div class="description">
                                     We are the leaders in plastic fuel or diesel tank repairers in Australia for many years, involved in repairing all types of leaking or damaged gasoline petroleum and diesel plastic tanks. Plastic fuel or diesel tanks are made from various types of Polyolefin Plastics.
                                     <span class="d-md-none">...</span><span class="d-none d-md-inline">We plastic weld splits, cracks and repair patches, any tears or holes in the plastic fuel tank. Even plastic welding new inlets or outlets on all types of leaking Plastic diesel tanks made of different coloured plastic materials.</span>
@@ -287,6 +306,7 @@ include __DIR__ . '/header.php';
                         <div class="row gy-3 gy-md-0 gx-4 gx-lg-6 align-items-end justify-content-between">
                             <div class="col">
                                 <div class="title fs-8">Round Water Tank Repairs</div>
+                                <div class="sm-text d-lg-none">Click here to read more</div>
                                 <div class="description">
                                     All rainwater tanks are repaired by using our specialist state of the art plastic welding equipment and in most cases all while the water tank is still in place without any need to remove your poly tank making the whole experience for the customer a lot more pleasurable.
                                 </div>
@@ -309,6 +329,7 @@ include __DIR__ . '/header.php';
                         <div class="row gy-3 gy-md-0 gx-4 gx-lg-6 align-items-end justify-content-between">
                             <div class="col">
                                 <div class="title fs-8">Leaking Slimline Repairs</div>
+                                <div class="sm-text d-lg-none">Click here to read more</div>
                                 <div class="description">
                                     All rainwater tanks are repaired by using our specialist state of the art plastic welding equipment and in most cases all while the water tank is still in place without any need to remove your poly tank making the whole experience for the customer a lot more pleasurable.
                                 </div>
@@ -455,7 +476,7 @@ include __DIR__ . '/header.php';
         <div class="text-center fs-4 fw-900 ">
             Our Service Areas Throughout Australia
         </div>
-        <div class="row justify-content-md-around justify-content-xl-between gy-md-4 fs-10 pt-4">
+        <div class="row justify-content-md-around gy-md-4 fs-10 pt-4">
             <div class="col-md-auto">
                 <?= renderImg('tick.png', "icons", "pe-2") ?>South East Queensland
             </div>
@@ -466,10 +487,7 @@ include __DIR__ . '/header.php';
                 <?= renderImg('tick.png', "icons", "pe-2") ?>Gold Coast
             </div>
             <div class="col-md-auto">
-                <?= renderImg('tick.png', "icons", "pe-2") ?>Sun Shine Coast
-            </div>
-            <div class="col-md-auto">
-                <?= renderImg('tick.png', "icons", "pe-2") ?>Sunshine
+                <?= renderImg('tick.png', "icons", "pe-2") ?>Sunshine Coast
             </div>
             <div class="col-md-auto">
                 <?= renderImg('tick.png', "icons", "pe-2") ?>Hinterland
@@ -485,6 +503,9 @@ include __DIR__ . '/header.php';
             </div>
             <div class="col-md-auto">
                 <?= renderImg('tick.png', "icons", "pe-2") ?>Northern Rivers
+            </div>
+            <div class="col-md-auto">
+                <?= renderImg('tick.png', "icons", "pe-2") ?>Lockyer Valley
             </div>
         </div>
     </div>
@@ -559,8 +580,8 @@ include __DIR__ . '/header.php';
                         ]; ?>
                         <?php foreach ($testimonials as $user => $testimonial) : ?>
                             <div class="testimonial-slider-content">
-                                <div class="user_initial"><?= substr($user, 0,1) ?></div>
-                                <div class="fs-11 fw-700 pt-2" ><?= $user ?></div>
+                                <div class="user_initial"><?= substr($user, 0, 1) ?></div>
+                                <div class="fs-11 fw-700 pt-2"><?= $user ?></div>
                                 <?= renderImg("stars.png", "icons", "py-2") ?>
                                 <div class="text-capitalize"><?= $testimonial['time'] ?></div>
                                 <hr>
@@ -614,6 +635,10 @@ include __DIR__ . '/header.php';
             </div>
         </div>
     </div>
+</section>
+
+<section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29624158.06758288!2d115.22492796537003!3d-24.992291572825835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2sau!4v1665362529503!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
 <?php include __DIR__ . '/footer.php'; ?>
