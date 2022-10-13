@@ -26,7 +26,12 @@ $('.service-card').on('mouseleave', function () {
     $(this).find('.description').slideUp(500);
 });
 
+if ($(document).width() < 540) {
+    setInterval(function () { $('header').addClass('active') }, 1000);
+}
+
 $(() => {
+
     $('#brands-slider').slick({
         slidesToShow: 7,
         arrows: false,
@@ -49,6 +54,7 @@ $(() => {
                 breakpoint: 540,
                 settings: {
                     slidesToShow: 2,
+                    autoplay: true,
                 }
             }
         ]
@@ -58,6 +64,7 @@ $(() => {
         slidesToShow: 1,
         arrows: true,
         slidesToScroll: 1,
+        autoplay: true,
     })
 })
 

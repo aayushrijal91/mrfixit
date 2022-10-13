@@ -42,14 +42,14 @@ include __DIR__ . '/header.php';
                             Don't Flick it,<span class="fw-900"> Fix It!</span>
                         </div>
                         <div class="fs-5 letter-spacing-n03">
-                            <span class="fw-900">Queensland's Leading</span> water tank Repairers
+                            <span class="fw-900">Australia's Leading</span> water tank Repairers
                         </div>
                     </div>
                 </div>
             </div>
             <?= renderImg("banner-tanks.png", "lib", "banner-tanks") ?>
             <div class="tank-text fs-8 d-none d-md-block">
-                <span class="fw-700">Free On-site</span> Upfron fixed quote<br> with no gymics
+                <span class="fw-700">Free On-site</span> Upfront fixed quote<br> with no gymics
             </div>
         </div>
     </div>
@@ -84,19 +84,19 @@ include __DIR__ . '/header.php';
                     <div class="description letter-spacing-n03">
                         We always provide an upfront hassle free on-site honest obligation free quote prior to proceeding with any on-site work on the day to ensure your happy with the quoted end job price with no extra added cost or surprises along the way on completion of your plastic tank repair.
                     </div>
-                    <?= renderImg('satisfaction-guaranteed.png', 'icons','satisfaction-guaranteed') ?>
+                    <?= renderImg('satisfaction-guaranteed.png', 'icons', 'satisfaction-guaranteed') ?>
                     <a href="tel:<?= $phone_number ?>" class="btn btn-quartinary px-5 py-3 line-height-1 rounded-pill fs-11">Call Today</a>
                     <div class="offer pt-5 d-md-none">
                         <div class="fs-10 line-height-1 pb-2">Rain water tank repairs<br> &amp; servicing</div>
-                        <div class="pill rounded-pill bg-quartinary px-5 py-2">
-                            <div class="fs-7 fw-700 line-height-1">Fr $299 <span class="fs-10 letter-spacing-n02"><s>Was $399</s></span></div>
+                        <div class="pill rounded-pill bg-quartinary px-4 py-2">
+                            <div class="fs-7 fw-700 line-height-1">From $299 <span class="fs-10 letter-spacing-n02"><s>Was $399</s></span></div>
                         </div>
                     </div>
                     <div class="pt-5"><?= renderImg("cta-1.gif", "lib") ?></div>
                     <div class="offer d-none d-md-block">
                         <div class="fs-10 line-height-1 pb-2">Rain water tank repairs<br> &amp; servicing</div>
-                        <div class="pill rounded-pill bg-quartinary px-5 py-2">
-                            <div class="fs-7 fw-700 line-height-1">Fr $299 <span class="fs-10 letter-spacing-n02"><s>Was $399</s></span></div>
+                        <div class="pill rounded-pill bg-quartinary px-4 py-2">
+                            <div class="fs-7 fw-700 line-height-1">From $299 <span class="fs-10 letter-spacing-n02"><s>Was $399</s></span></div>
                         </div>
                     </div>
                 </div>
@@ -540,41 +540,40 @@ include __DIR__ . '/header.php';
                     <div class="testimonial-slider" id="testimonial-slider">
                         <?php $testimonials = [
                             "Lorrain C." => [
-                                "time" => "3 Days ago",
+                                "time" => "3 days ago",
                                 "comment" => "<p>Noel came out to look at what I thought was a leak in my water tank. He quickly discovered that the leak was actually from a crack in a fitting, on the part of the fitting that screws into the tank. At my request he removed the fitting and capped off the tank at that outlet, so my tank is now leak-free.</p>
                                 <p>He was only at my place for 10 minutes so didn't even charge me a call-out fee! Very happy to recommend Noel.</p>",
                             ],
                             "Suzanne Meyers" => [
-                                "time" => "a month ago",
-                                "comment" => "<p>He wants them to say 3 days ago, 5 days ago, a week ago, 2 weeks ago and a month ago.</p>
-                                <p>Noel did a great job. Prompt professional service. Our damaged poly tank was welded up in a jiffy and ready to go straight away.</p>"
+                                "time" => "5 days ago",
+                                "comment" => "Noel did a great job. Prompt professional service. Our damaged poly tank was welded up in a jiffy and ready to go straight away."
                             ],
                             "Shannon Beatty" => [
-                                "time" => "a month ago",
+                                "time" => "1 week ago",
                                 "comment" => "<p>Noel came out to look at what I thought was a leak in my water tank. He quickly discovered that the leak was actually from a crack in a fitting, on the part of the fitting that screws into the tank. At my request he removed the fitting and capped off the tank at that outlet, so my tank is now leak-free. He was only at my place for 10 minutes so didn't even charge me a call-out fee! Very happy to recommend Noel.</p>"
                             ],
                             "Catherine Gillespie" => [
-                                "time" => "a month ago",
+                                "time" => "2 weeks ago",
                                 "comment" => "<p>Noel carried out a welding repair to our poly rainwater tank. He kept us informed as to his availability and arrived at the time provided to us. We found him to be extremely professional and offered us sound advice. We would not hesitate in recommending him for this service.</p>"
                             ],
                             "Shane Langham" => [
-                                "time" => "a month ago",
+                                "time" => "4 days ago",
                                 "comment" => "<p>When you want a job done right the first time call a professional like Noel. Noel has the experience that you are after to tell you how it is and the best way forward. My poly water tank has never looked so good (other then when it was new) Thanks for a job well done Noel. I will be calling you again  if i have trouble with my other tank.</p>"
                             ],
                             "Lloyd Anderson" => [
-                                "time" => "a month ago",
+                                "time" => "3 weeks ago",
                                 "comment" => "<p>The 'Self Supporting' roof of our 5,000 gallon poly tank collapsed and I feared that I would have replace it. Access to the tank's location was difficult as far as replacement is concerned and this could have cost a lot. Noel took on the job and while the repair was not easy and took a fair while, he got the job done and at a reasonable cost. Noel is very good at his craft and I highly recommend him.</p>"
                             ],
                             "Helena Lewis" => [
-                                "time" => "a month ago",
+                                "time" => "1 week ago",
                                 "comment" => "Noel was knowledgeable  and friendly. Got the job done without any fuss and at a reasonable price.  Would happily recommend him to others."
                             ],
                             "Des Craven" => [
-                                "time" => "a month ago",
+                                "time" => "5 days ago",
                                 "comment" => "Rang Mr Fix It Water Tank Service as a repair to my water tank carried out by Rapid Repairs was unsuccessful (see my review on Rapid Repairs). Noel from was punctual and did a thoroughly professional job on fixing the leak. If you’re looking for an expert I highly recommend him."
                             ],
                             "Sarah Wilson" => [
-                                "time" => "a month ago",
+                                "time" => "1 week ago",
                                 "comment" => "We recently asked Noel to look at a damaged water tank to advise on repairs. Unfortunately, the tank was too far gone, but Noel was extremely helpful advising on recommended replacement tank options.  Thank you!"
                             ],
                         ]; ?>
@@ -638,7 +637,7 @@ include __DIR__ . '/header.php';
 </section>
 
 <section class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29624158.06758288!2d115.22492796537003!3d-24.992291572825835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2b2bfd076787c5df%3A0x538267a1955b1352!2sAustralia!5e0!3m2!1sen!2sau!4v1665362529503!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3581762.9360850044!2d150.81398160127497!3d-28.7549290096165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1665631767954!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
 <?php include __DIR__ . '/footer.php'; ?>
