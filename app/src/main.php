@@ -1,8 +1,3 @@
-<?php
-include __DIR__ . '/../functions.php';
-include __DIR__ . '/header.php';
-?>
-
 <header>
     <div class="header-top-bar py-4">
         <div class="container">
@@ -637,7 +632,42 @@ include __DIR__ . '/header.php';
 </section>
 
 <section class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3581762.9360850044!2d150.81398160127497!3d-28.7549290096165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1665631767954!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4050818.0925386897!2d151.44116597468323!3d-27.954531848615623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1665717584561!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
-<?php include __DIR__ . '/footer.php'; ?>
+<footer>
+	<div class="container">
+		<div class="row justify-content-center justify-content-lg-between align-items-center">
+			<div class="col-auto">
+				<div class="row gx-2 gx-md-3 justify-content-center">
+					<div class="col-12 text-center pb-3 d-lg-none">
+						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
+							<?= renderImg("aiims.png", "logo") ?>
+						</a>
+					</div>
+					<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
+					<div class="col-auto">|</div>
+					<div class="col-auto text-center"><?= $site ?></div>
+					<div class="col-auto">|</div>
+					<div class="col-auto text-center">All Rights Reserved</div>
+				</div>
+			</div>
+			<div class="col-auto pt-3 pt-lg-0">
+				<div class="row align-items-center gx-5">
+					<div class="col-auto">
+						<div class="row">
+							<div class="col-auto text-center">Terms &amp; Conditions</div>
+							<div class="col-auto">|</div>
+							<div class="col-auto text-center">Privacy Policies</div>
+						</div>
+					</div>
+					<div class="col-auto d-none d-lg-block">
+						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
+							<?= renderImg("aiims.png", "logo") ?>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
