@@ -7,6 +7,11 @@ header {
     position: relative;
     overflow-y: hidden;
 
+    .header-top-bar {
+        position: relative;
+        z-index: 100;
+    }
+
     .splash-wave {
         position: absolute;
         bottom: -100%;
