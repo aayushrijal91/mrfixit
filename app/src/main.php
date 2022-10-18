@@ -56,7 +56,7 @@
     <div class="container">
         <div class="row justify-content-between align-items-center gy-5 gy-xl-0">
             <div class="col-12 col-xl-auto pt-5 pt-xl-0">
-                <div class="letter-spacing-n03 text-tertiary fs-8 text-center"><span class="fw-700">Leaking tank?</span> Don't Replace Call Now &<span class="fw-700"> Save $$$</span></div>
+                <div class="letter-spacing-n03 text-tertiary fs-8 text-center" data-aos="fade-right"><span class="fw-700">Leaking tank?</span> Don't Replace Call Now &<span class="fw-700"> Save $$$</span></div>
             </div>
             <div class="col-12 col-xl-4">
                 <div class="row justify-content-between justify-content-lg-around justify-content-xl-between align-items-center">
@@ -95,6 +95,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="pt-5 fs-10 fw-700 text-primary" data-aos="fade-right"><span class="bg-primary p-2 text-white">Leaking tank?</span> Don't Replace Call Now & Save $$$</div>
             </div>
             <div class="col-lg-6 h-inherit">
                 <div class="cta-card">
@@ -117,6 +118,7 @@
                         </div>
                     </div>
                 </div>
+                    <div class="text-end pt-5 fs-10 fw-700 text-primary" data-aos="fade-left"><span class="bg-primary p-2 text-white">Spitting tank?</span> Don't Replace Call Now & Save $$$</div>
             </div>
         </div>
     </div>
@@ -636,38 +638,38 @@
 </section>
 
 <footer>
-	<div class="container">
-		<div class="row justify-content-center justify-content-lg-between align-items-center">
-			<div class="col-auto">
-				<div class="row gx-2 gx-md-3 justify-content-center">
-					<div class="col-12 text-center pb-3 d-lg-none">
-						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-							<?= renderImg("aiims.png", "logo") ?>
-						</a>
-					</div>
-					<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
-					<div class="col-auto">|</div>
-					<div class="col-auto text-center"><?= $site ?></div>
-					<div class="col-auto">|</div>
-					<div class="col-auto text-center">All Rights Reserved</div>
-				</div>
-			</div>
-			<div class="col-auto pt-3 pt-lg-0">
-				<div class="row align-items-center gx-5">
-					<div class="col-auto">
-						<div class="row">
-							<div class="col-auto text-center">Terms &amp; Conditions</div>
-							<div class="col-auto">|</div>
-							<div class="col-auto text-center">Privacy Policies</div>
-						</div>
-					</div>
-					<div class="col-auto d-none d-lg-block">
-						<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-							<?= renderImg("aiims.png", "logo") ?>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div class="container">
+        <div class="row justify-content-center justify-content-lg-between align-items-center">
+            <div class="col-auto">
+                <div class="row gx-2 gx-md-3 justify-content-center">
+                    <div class="col-12 text-center pb-3 d-lg-none">
+                        <a href="https://www.aiims.com.au/like-our-work/" target="_blank">
+                            <?= renderImg("aiims.png", "logo") ?>
+                        </a>
+                    </div>
+                    <div class="col-auto text-center">Copyright <?= date('Y') ?></div>
+                    <div class="col-auto">|</div>
+                    <div class="col-auto text-center"><?= $site ?></div>
+                    <div class="col-auto">|</div>
+                    <div class="col-auto text-center">All Rights Reserved</div>
+                </div>
+            </div>
+            <div class="col-auto pt-3 pt-lg-0">
+                <div class="row align-items-center gx-5">
+                    <div class="col-auto">
+                        <div class="row">
+                            <div class="col-auto text-center">Terms &amp; Conditions</div>
+                            <div class="col-auto">|</div>
+                            <div class="col-auto text-center">Privacy Policies</div>
+                        </div>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <a href="https://www.aiims.com.au/like-our-work/" target="_blank">
+                            <?= renderImg("aiims.png", "logo") ?>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
