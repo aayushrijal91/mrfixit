@@ -30,6 +30,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-auto">
                     <div class="headings">
+                        <div class="text-center"><?= renderImg("best-price-badge.png", "lib") ?></div>
                         <div class="subHeading text-center fs-6 fw-500">
                             <span>If we can't fix it, then it's free!</span>
                         </div>
@@ -72,7 +73,7 @@
 
 <section class="cta">
     <div class="container">
-        <div class="row gy-4 gy-lg-0">
+        <div class="row gy-10 gy-lg-0">
             <div class="col-lg-6 h-inherit">
                 <div class="cta-card">
                     <div class="letter-spacing-n03 fs-2 line-height-1"><span class="fw-700">Don't Replace It</span>, Fix It</div>

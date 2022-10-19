@@ -22,11 +22,7 @@ header {
     .banner {
         z-index: 100;
         position: relative;
-        padding-top: 64px;
-
-        @include media-breakpoint-up(md) {
-            padding-top: 100px;
-        }
+        padding-top: 48px;
 
         .headings {
             transition: 0.4s all ease-in-out;
