@@ -165,11 +165,11 @@ section.cta {
             @include media-breakpoint-up(xl) {
                 position: absolute;
                 left: 0;
-                top: 20rem;
+                top: 23rem;
             }
 
             @include media-breakpoint-up(xxl) {
-                top: 16rem;
+                top: 20rem;
             }
         }
 

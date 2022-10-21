@@ -80,8 +80,9 @@
                     <div class="description letter-spacing-n03">
                         We always provide an upfront hassle free on-site honest obligation free quote prior to proceeding with any on-site work on the day to ensure your happy with the quoted end job price with no extra added cost or surprises along the way on completion of your plastic tank repair.
                     </div>
-                    <?= renderImg('satisfaction-guaranteed.png', 'icons', 'satisfaction-guaranteed') ?>
+                    <?= renderImg('satisfaction-guaranteed.png', 'icons', 'satisfaction-guaranteed d-none d-xl-block') ?>
                     <a href="tel:<?= $phone_number ?>" class="btn btn-quartinary px-5 py-3 line-height-1 rounded-pill fs-11">Call Today</a>
+                    <?= renderImg('satisfaction-guaranteed.png', 'icons', 'satisfaction-guaranteed d-xl-none') ?>
                     <div class="offer pt-5 d-md-none">
                         <div class="fs-10 line-height-1 pb-2">Rain water tank repairs<br> &amp; servicing</div>
                         <div class="pill rounded-pill bg-quartinary px-4 py-2">
@@ -104,7 +105,9 @@
                     <div class="description letter-spacing-n03">
                         Our technicians will always give you the best upfront honest advice prior to repairing your plastic tank letting you know any pro’s and con’s to allow our customers to make the best choice for them.
                     </div>
+                    <?= renderImg('best-price-badge.png', 'lib', 'satisfaction-guaranteed p-2 d-none d-xl-block') ?>
                     <a href="tel:<?= $phone_number ?>" class="btn btn-quartinary px-5 py-3 line-height-1 rounded-pill fs-11">Call Today</a>
+                    <?= renderImg('best-price-badge.png', 'lib', 'satisfaction-guaranteed p-2 d-xl-none') ?>
                     <div class="offer pt-5 d-md-none">
                         <div class="pill rounded-pill bg-quartinary px-5 py-2">
                             <div class="fs-7 fw-700 line-height-1">Get $100 Off</div>
