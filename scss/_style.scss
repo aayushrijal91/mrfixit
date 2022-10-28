@@ -174,7 +174,7 @@ section.cta {
         }
 
         .offer {
-            @include media-breakpoint-up(md) {
+            @include media-breakpoint-up(xl) {
                 position: absolute;
                 bottom: 32px;
             }

@@ -83,14 +83,14 @@
                     <?= renderImg('satisfaction-guaranteed.png', 'icons', 'satisfaction-guaranteed d-none d-xl-block') ?>
                     <a href="tel:<?= $phone_number ?>" class="btn btn-quartinary px-5 py-3 line-height-1 rounded-pill fs-11">Call Today</a>
                     <?= renderImg('satisfaction-guaranteed.png', 'icons', 'satisfaction-guaranteed d-xl-none') ?>
-                    <div class="offer pt-5 d-md-none">
+                    <div class="offer pt-5 d-xl-none">
                         <div class="fs-10 line-height-1 pb-2">Rain water tank repairs<br> &amp; servicing</div>
                         <div class="pill rounded-pill bg-quartinary px-4 py-2">
                             <div class="fs-7 fw-700 line-height-1">From $299 <span class="fs-10 letter-spacing-n02"><s>Was $399</s></span></div>
                         </div>
                     </div>
                     <div class="pt-5"><?= renderImg("cta-1.gif", "lib") ?></div>
-                    <div class="offer d-none d-md-block">
+                    <div class="offer d-none d-xl-block">
                         <div class="fs-10 line-height-1 pb-2">Rain water tank repairs<br> &amp; servicing</div>
                         <div class="pill rounded-pill bg-quartinary px-4 py-2">
                             <div class="fs-7 fw-700 line-height-1">From $299 <span class="fs-10 letter-spacing-n02"><s>Was $399</s></span></div>
@@ -108,14 +108,14 @@
                     <?= renderImg('best-price-badge.png', 'lib', 'satisfaction-guaranteed p-2 d-none d-xl-block') ?>
                     <a href="tel:<?= $phone_number ?>" class="btn btn-quartinary px-5 py-3 line-height-1 rounded-pill fs-11">Call Today</a>
                     <?= renderImg('best-price-badge.png', 'lib', 'satisfaction-guaranteed p-2 d-xl-none') ?>
-                    <div class="offer pt-5 d-md-none">
+                    <div class="offer pt-5 d-xl-none">
                         <div class="pill rounded-pill bg-quartinary px-5 py-2">
                             <div class="fs-7 fw-700 line-height-1">Get $100 Off</div>
                             <div class="fs-14">Your 1st Service</div>
                         </div>
                     </div>
                     <div class="pt-5"><?= renderImg("cta-2.gif", "lib") ?></div>
-                    <div class="offer d-none d-md-block">
+                    <div class="offer d-none d-xl-block">
                         <div class="pill rounded-pill bg-quartinary px-5 py-2">
                             <div class="fs-7 fw-700 line-height-1">Get $100 Off</div>
                             <div class="fs-14">Your 1st Service</div>
